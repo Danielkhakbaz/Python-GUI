@@ -22,8 +22,6 @@ def change_color():
 
     screen.colormode(255)
 
-    print(turtle.pencolor(R, G, B))
-
     return turtle.pencolor(R, G, B)
 
 
