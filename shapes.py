@@ -1,5 +1,5 @@
 from turtle import Turtle, Screen
-import random
+from random import randint
 
 turtle = Turtle()
 screen = Screen()
@@ -16,9 +16,9 @@ def change_color():
     a Method to change the color of the pen
     """
 
-    R = random.randint(0, 255)
-    G = random.randint(0, 255)
-    B = random.randint(0, 255)
+    R = randint(0, 255)
+    G = randint(0, 255)
+    B = randint(0, 255)
 
     screen.colormode(255)
 

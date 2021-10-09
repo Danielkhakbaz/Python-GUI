@@ -1,5 +1,5 @@
 from turtle import Turtle, Screen
-import random
+from random import randint, choice
 
 directions = [0, 90, 180, 270]
 
@@ -15,9 +15,9 @@ def change_color():
     a Method to change the color of the pen
     """
 
-    R = random.randint(0, 255)
-    G = random.randint(0, 255)
-    B = random.randint(0, 255)
+    R = randint(0, 255)
+    G = randint(0, 255)
+    B = randint(0, 255)
 
     screen.colormode(255)
 
@@ -34,10 +34,10 @@ turtle.speed(10)
 turtle.pensize(5)
 
 # Drawing the random lines
-for _ in range(200):
+for _ in range(50):
     change_color()
     turtle.forward(30)
-    turtle.setheading(random.choice(directions))
+    turtle.setheading(choice(directions))
 
 # The window does not get closed until you click inside the window
 screen.exitonclick()
