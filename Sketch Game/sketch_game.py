@@ -8,6 +8,7 @@ def move_forward():
     """
     Move the pen forward by 10 pace.
     """
+
     turtle.forward(10)
 
 
@@ -15,6 +16,7 @@ def move_backward():
     """
     Move the pen backward by 10 pace.
     """
+
     turtle.backward(10)
 
 
@@ -22,6 +24,7 @@ def move_left():
     """
     Move the pen to the left by 10 pace.
     """
+
     turtle.left(10)
 
 
@@ -29,6 +32,7 @@ def move_right():
     """
     Move the pen to the right by 10 pace.
     """
+
     turtle.right(10)
 
 
@@ -36,6 +40,7 @@ def clear_the_painting():
     """
     Clear all the paintings.
     """
+
     turtle.clear()
 
 
