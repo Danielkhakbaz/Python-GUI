@@ -1,4 +1,4 @@
-from turtle import Turtle, Screen, clear
+from turtle import Turtle, Screen
 
 turtle = Turtle()
 screen = Screen()
