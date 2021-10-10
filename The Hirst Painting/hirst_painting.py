@@ -23,6 +23,11 @@ for color in colors_pallete:
     colors.append((color.rgb.r, color.rgb.g, color.rgb.b))
 
 for index, color in enumerate(colors):
+    turtle.dot(20, color)
+    turtle.penup()
+    turtle.forward(50)
+    turtle.pendown()
+
     if (index + 1) % 10 == 0:
         turtle.penup()
         turtle.setheading(90)
@@ -32,10 +37,7 @@ for index, color in enumerate(colors):
         turtle.setheading(360)
         turtle.pendown()
 
-    turtle.dot(20, color)
-    turtle.penup()
-    turtle.forward(50)
-    turtle.pendown()
+
 
 # The window does not get closed until you click inside the window
 screen.exitonclick()
