@@ -37,7 +37,5 @@ for index, color in enumerate(colors):
         turtle.setheading(360)
         turtle.pendown()
 
-
-
 # The window does not get closed until you click inside the window
 screen.exitonclick()
